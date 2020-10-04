@@ -25,7 +25,7 @@ class LandingPage extends Component {
 
                 <nav className="navbar navbar-expand-lg bg-light fixed-top navbar-light mb-2">
                     <Link className="navbar-brand" to="/">
-                        Order Me This
+                        Order Me
                     </Link>
                     <button
                         onClick={this.toggleNav}
