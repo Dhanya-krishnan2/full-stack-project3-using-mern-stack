@@ -1,0 +1,16 @@
+.backdropStyle {
+    padding-bottom: 21px;
+}
+
+.modalStyle {
+    background-color: #fff;
+    border-radius: 5px;
+    max-width: 312px;
+    padding: 30px;
+    color: #000;
+}
+
+.footerStyle {
+    position: absolute;
+    bottom: 20px;
+}
