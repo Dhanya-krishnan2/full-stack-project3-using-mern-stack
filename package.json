@@ -1,0 +1,35 @@
+{
+  "name": "full-stack-project-mern-stack-order-me",
+  "version": "1.0.0",
+  "description": "** This application is a  mern-fullstack, because it is made up of mongodb, express, react and node js, hence the name MERN, here I made a client folder by using react",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dhanya-krishnan2/full-stack-project3-using-mern-stack.git"
+  },
+  "author": "Dhanya Kunhikrishanan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dhanya-krishnan2/full-stack-project3-using-mern-stack/issues"
+  },
+  "homepage": "https://github.com/Dhanya-krishnan2/full-stack-project3-using-mern-stack#readme",
+  "dependencies": {
+    "ag-grid-community": "^24.0.0",
+    "ag-grid-react": "^24.0.0",
+    "axios": "^0.20.0",
+    "bcrypt": "^5.0.0",
+    "cookie-session": "^1.4.0",
+    "express": "^4.17.1",
+    "if-env": "^1.0.4",
+    "mdbreact": "^4.27.0",
+    "moment": "^2.29.0",
+    "mongoose": "^5.10.8",
+    "react-dom-factories": "^1.0.2",
+    "react-reveal": "^1.2.2",
+    "react-transition-group": "^4.4.1"
+  }
+}
