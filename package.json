@@ -4,8 +4,14 @@
   "description": "** This application is a  mern-fullstack, because it is made up of mongodb, express, react and node js, hence the name MERN, here I made a client folder by using react",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "seed": "node scripts/seedDB.js",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -28,8 +34,10 @@
     "mdbreact": "^4.27.0",
     "moment": "^2.29.0",
     "mongoose": "^5.10.8",
+    "nodemon": "^2.0.4",
     "react-dom-factories": "^1.0.2",
     "react-reveal": "^1.2.2",
-    "react-transition-group": "^4.4.1"
+    "react-transition-group": "^4.4.1",
+    "start": "^5.1.0"
   }
 }
