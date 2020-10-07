@@ -1,7 +1,8 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 import "./style.css";
-
+// here we are making use of MDB react for the footer to render 
+// creating a footer function by using mdbcontainer
 const Footer = () => {
 
 return ( 
@@ -45,3 +46,4 @@ return (
 }
 
 export default Footer;
+// exporting the footer by default

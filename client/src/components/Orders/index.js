@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./style.css";
 import { Input } from "../../components/Form";
 const moment = require('moment');
-
+// we are using moment js to get the time
 class Orders extends Component {
     constructor(props) {
         super(props)

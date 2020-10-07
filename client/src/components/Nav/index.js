@@ -6,6 +6,8 @@ import "./style.css";
 // import Login from "../../pages/Login";
 // import Logout from "../Logout";
 import ApplicationContext from '../../ApplicationContext';
+// we are using the react-router-dom helps us to easily navigate 
+// we are using the state here hence we used the class instead of function
 
 class Nav extends Component {
   static contextType = ApplicationContext;
@@ -15,7 +17,7 @@ class Nav extends Component {
     width: window.innerWidth,
     user: this.context.user
   };
-
+// here we are using the authenication
   logout = () => {
     this.context.setUser({ anonymous: true })
     this.context.auth.logout();
@@ -37,7 +39,7 @@ class Nav extends Component {
     return (
       <nav className="navbar navbar-expand-lg bg-light fixed-top navbar-light mb-2">
         <Link className="navbar-brand" to="/">
-          Order Me This
+          Order Me 
         </Link>
         <button
           onClick={this.toggleNav}

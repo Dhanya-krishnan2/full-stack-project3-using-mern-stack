@@ -5,6 +5,8 @@ const mongoose = require("mongoose");
 const routes = require("./routes");
 const app = express();
 const PORT = process.env.PORT || 3001;
+// we are using path here for the file directory 
+// here we are using cookie-session as a middleware to the user data without the help of a database
 
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));

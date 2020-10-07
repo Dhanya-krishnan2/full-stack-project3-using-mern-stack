@@ -8,3 +8,5 @@ MDReact- specialized stlylling for footer styling
 React-Reveal - makes  a smooth sign-up Login animation
 context-API and Cookie Session used for Authentication of user login information
 react, react-router-dom, mongodb, Mongoose, Express js, Axios used as dependencies
+## The workflow of the program
+  The   `` application is developed to create to order your launch runs for you and this is a full stack application by using MERN, stack and the front end  UI is made up of react js which used its function to create a wonderful userinterface and the client side or the react part further divided in to components. pages, utils which is having its own functionality and ``

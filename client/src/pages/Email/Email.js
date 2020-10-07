@@ -8,7 +8,7 @@ import API from "../../utils/API";
 import { Redirect } from 'react-router-dom';
 const moment = require('moment');
 
-
+// we are using the material ui here to enhance the perfomance of styling.
 class Email extends Component {
     static contextType = ApplicationContext;
     state = {
@@ -117,7 +117,7 @@ class Email extends Component {
                                     name="eventName"
                                     placeholder="Event Name"
                                 />
-                                <small>Separate emails by a comma (ex. Joe@gmail.com, Mandy@email.com).</small>
+                                <small>Separate emails by a comma (ex. dhanyakunhi@gmail.com, awesomealli@email.com).</small>
                                 <TextArea
                                     value={this.state.sendToEmail}
                                     onChange={this.handleInputChange}

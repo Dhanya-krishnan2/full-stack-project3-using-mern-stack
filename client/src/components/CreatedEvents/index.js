@@ -3,7 +3,9 @@ import "./style.css";
 import {
     Link
 } from "react-router-dom";
-
+// here we are creating Event by using style.css, react and react-dom
+//this react router dom let us to navigate between the components and keeping the Ui sunchronised
+// creating a function having all the details we want in the home page
 function CreatedEvents({
     deleteEvent,
     eventName,
@@ -48,3 +50,5 @@ function CreatedEvents({
 }
 
 export default CreatedEvents;
+// the above HTML creates the form which having all the details in them and some of them are optional
+// here we are exporting by default

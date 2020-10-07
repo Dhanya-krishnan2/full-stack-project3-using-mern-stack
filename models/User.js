@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
+//we used bycrypt here is used to hash and store the password.
 const UserSchema = new mongoose.Schema({
   email: {
     type: String,

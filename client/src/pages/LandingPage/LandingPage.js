@@ -44,7 +44,7 @@ class LandingPage extends Component {
                     <div className="landingPageMainText mx-3">
                         <div className="col">
                             <div className="landingPageTitle">
-                                <h1 className="text-center">Order Me This</h1>
+                                <h1 className="text-center">Order Me </h1>
                                 <h4>Organize your office lunch runs</h4>
                             </div>
                         </div>

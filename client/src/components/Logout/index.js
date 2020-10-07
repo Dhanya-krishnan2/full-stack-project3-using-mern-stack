@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 // import { logout } from "../../components/Nav";
 import {Link} from "react-router-dom";
+// this function is created for user logout
 
 function Logout(){
     

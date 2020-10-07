@@ -3,7 +3,7 @@ import "./style.css";
 import { AgGridReact } from 'ag-grid-react';
 import 'ag-grid-community/dist/styles/ag-grid.css';
 import 'ag-grid-community/dist/styles/ag-theme-balham.css';
-
+//age-grid is costomised javascript here we used to for pagination and coloumn grouping and row grouping
 const columnDefs =
     [
         { headerName: "Name", field: "name"},
@@ -13,7 +13,7 @@ const columnDefs =
         { headerName: "Special Request", field: "specialRequest"}
     ]
 
-
+//creating a column by the order by using array of object, declaring an event summary function
 function EventSummary(props) {
     
     const {

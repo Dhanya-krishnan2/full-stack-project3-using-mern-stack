@@ -1,6 +1,8 @@
 import React from "react";
 import "./style.css";
 import Fade from 'react-reveal/Fade';
+// we are using react reveal fade for special efffect like animation and fading
+// creating a class modal for rendering the information
 
 export default class Modal extends React.Component {
 
